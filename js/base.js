@@ -46,7 +46,7 @@ function createTable(data) {
 
         const tdEmployment = document.createElement('td');
         tdEmployment.textContent = 'x';
-        row.appendChild(tdPopulation);
+        row.appendChild(tdEmployment);
 
         tbody.appendChild(row);
     });
