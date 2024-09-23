@@ -22,7 +22,7 @@ th {
     border-bottom: 2px solid gray;
 }
 
-.center>h1 {
+.center h1 {
     margin: auto;
     padding: 60px;
     width: 60%;
