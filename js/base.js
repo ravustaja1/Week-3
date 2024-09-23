@@ -24,6 +24,10 @@ function createTable(data) {
     thPopulation.textContent = 'Population';
     headerRow.appendChild(thPopulation);
 
+    const thEmploymentAmount = document.createElement('th');
+    thEmploymentAmount.textContent = 'Employment amount';
+    headerRow.appendChild(thEmploymentAmount);
+
     thead.appendChild(headerRow);
     table.appendChild(thead);
 
@@ -39,6 +43,7 @@ function createTable(data) {
         const tdPopulation = document.createElement('td');
         tdPopulation.textContent = populations[population];
         row.appendChild(tdPopulation);
+
 
         tbody.appendChild(row);
     });
